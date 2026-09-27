@@ -1,0 +1,6 @@
+{
+  "name": "Fleex Garments - Modern Apparel & Essentials",
+  "description": "Explore Fleex Garments modern collection of heavyweight fleece hoodies, relaxed combed cotton tees, tailored cargos, and outerwear. Seamless wishlist, search, and direct WhatsApp order placement.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
