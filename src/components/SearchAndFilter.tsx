@@ -2,7 +2,7 @@ import React from 'react';
 import { useShop } from '../context/ShopContext';
 import { CATEGORIES } from '../data/products';
 import { Search, SlidersHorizontal, X, RotateCcw } from 'lucide-react';
-import { CategoryFilter, FilterState } from '../types';
+import { CategoryFilter, FilterState } from '../types/garments';
 
 interface SearchAndFilterProps {
   filteredCount: number;

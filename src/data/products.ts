@@ -1,4 +1,4 @@
-import { Product } from '../types';
+import { Product } from '../types/garments';
 import hoodieImg from '../assets/images/product_heavyweight_hoodie_1790497338187.jpg';
 import teeImg from '../assets/images/product_relaxed_tee_1790497353770.jpg';
 import cargoImg from '../assets/images/product_tailored_cargo_1790497370584.jpg';

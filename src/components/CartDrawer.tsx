@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useShop } from '../context/ShopContext';
 import { X, Trash2, MessageCircle, Copy, ArrowRight, ShieldCheck, Check, ChevronDown, ChevronUp } from 'lucide-react';
-import { CustomerOrderInfo } from '../types';
+import { CustomerOrderInfo } from '../types/garments';
 import { formatCartOrderMessage } from '../utils/whatsapp';
 
 export const CartDrawer: React.FC = () => {

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Product } from '../types';
+import { Product } from '../types/garments';
 import { useShop } from '../context/ShopContext';
 import { Heart, MessageCircle, Eye, Check } from 'lucide-react';
 

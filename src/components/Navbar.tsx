@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useShop } from '../context/ShopContext';
 import { Search, Heart, ShoppingBag, MessageCircle, X } from 'lucide-react';
-import { CategoryFilter } from '../types';
+import { CategoryFilter } from '../types/garments';
 
 export const Navbar: React.FC = () => {
   const {

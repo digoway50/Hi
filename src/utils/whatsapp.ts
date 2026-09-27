@@ -1,4 +1,4 @@
-import { CartItem, CustomerOrderInfo, Product } from '../types';
+import { CartItem, CustomerOrderInfo, Product } from '../types/garments';
 
 export const DEFAULT_STORE_PHONE = '+15557892026';
 

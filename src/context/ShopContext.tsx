@@ -1,5 +1,5 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
-import { Product, CartItem, FilterState, CategoryFilter, CustomerOrderInfo } from '../types';
+import { Product, CartItem, FilterState, CategoryFilter, CustomerOrderInfo } from '../types/garments';
 import { PRODUCTS } from '../data/products';
 import {
   DEFAULT_STORE_PHONE,
