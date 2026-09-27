@@ -39,16 +39,15 @@ This repository includes a pre-configured GitHub Actions workflow in `.github/wo
 
 ---
 
-### Option 2: Manual Build & Push (Alternative)
+### Option 2: Deploy from Branch via `/docs` (Easiest & Instant)
 
-If you prefer building locally and deploying the static `dist` folder:
+We have pre-built the compiled website into the `docs/` folder:
 
-1. Build the production files:
-   ```bash
-   npm run build
-   ```
-2. The compiled static HTML, CSS, and JS files will be in the `dist` directory.
-3. You can deploy the `dist` folder to GitHub Pages using the `gh-pages` package or by committing the contents to a `gh-pages` branch.
+1. Push the code to GitHub (`git add . && git commit -m "Add docs" && git push origin main`).
+2. Go to **Settings** -> **Pages** in your GitHub repository.
+3. Under **Build and deployment** -> **Source**, choose **Deploy from a branch**.
+4. Under **Branch**, select `main` and set the folder dropdown to **`/docs`** (instead of `/ (root)`).
+5. Click **Save**. GitHub Pages will immediately serve `docs/index.html`!
 
 ---
 
